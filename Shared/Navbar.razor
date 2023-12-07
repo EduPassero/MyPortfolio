@@ -1,0 +1,38 @@
+﻿@using Microsoft.JSInterop;
+@inject IJSRuntime IJSRuntime;
+
+@*<nav id="nav">
+    <div class="brand_cover"></div>
+    <img class="nav_brand" height="40" width="40" src="/media/img/Me/me_brand.png" />
+    <ul class="nav_links">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#experiences">Experiências</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="/media/files/Eduardo_Passero_Desenvolvedor.pdf" target="_blank">Currículo</a></li>
+        <li>
+            <label>Linguagem &nbsp;&nbsp;</label>
+            <label class="switch">
+                <input type="checkbox" @onclick="ChangeLanguage">
+                <span class="slider round"></span>
+            </label>
+        </li>
+    </ul>
+    <ul class="nav_links">
+        <li><span class="oi oi-menu nav_menu_button" aria-hidden="true" style="width: 0px" /></li>
+        
+    </ul>
+    @*<div class="crome" onclick=@(() => navbar = !navbar)></div>
+	<button className="nav_mobile_button nav_close" onclick=@(() => navbar = !navbar)>
+        
+	</button>
+</nav>*@
+
+@code {
+    [Parameter]
+    public EventCallback OnStateHasChanged { get; set; }
+
+    private async Task ChangeLanguage()
+    {
+        await OnStateHasChanged.InvokeAsync();
+    }
+}

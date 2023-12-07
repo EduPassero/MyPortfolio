@@ -1,0 +1,38 @@
+﻿<div className="videos">
+    <div className="video_wrapper">
+        <h3>Login</h3>
+        <video className="video_project" src=(homePage) controls autoPlay loop muted />
+    </div>
+    <div className="video_wrapper">
+        <h3>Responsividade</h3>
+        <video className="video_project" src=(responsivo) controls autoPlay loop muted />
+    </div>
+    <div className="video_wrapper">
+        <h3>Notas Fiscais</h3>
+        <video className="video_project" src=(notasFiscais) controls autoPlay loop muted />
+    </div>
+    <div className="video_wrapper">
+        <h3>Relatório</h3>
+        <video className="video_project" src=(relatorio) controls autoPlay loop muted />
+    </div>
+</div>
+
+<style>
+    .video_project {
+        border-radius: 5px;
+        border: solid 2px #126a74;
+        width: 100%;
+        height: auto;
+    }
+
+    .video_wrapper h3 {
+        margin: 10px;
+    }
+
+    .videos {
+        padding: 2em 0;
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+</style>
