@@ -4,7 +4,7 @@
 
 <nav id="nav">
         <div class="brand_cover"></div>
-        <img class="nav_brand" height="40" width="40" src="/media/img/Me/me_brand.png" />
+        <img class="nav_brand" height="40" width="40" src="media/img/Me/me_brand.png" />
     <ul class="nav_links">
         @if (english)
         {
@@ -40,7 +40,7 @@
 </nav>
 
 <div class="cover">
-    <video class="video_bg" src="/media/video/background_video.mp4" muted autoPlay loop />
+    <video class="video_bg" src="media/video/background_video.mp4" muted autoPlay loop />
     <div class="big_titles">
         <h1 id="name">Eduardo Passero</h1>
         @if (english)
@@ -190,7 +190,7 @@
             <div class="col-12 col-md-6 mb-4">
                 <div class="row g-0 project-card position-relative rounded-1">
                     <div class="col-md-6 mb-md-0 p-md-4">
-                        <img src="/media/img/Projects/movies.png" class="w-100" alt="...">
+                        <img src="media/img/Projects/movies.png" class="w-100" alt="...">
                     </div>
                     <div class="col-md-6 p-4 ps-md-0">
                         <h5 class="mt-0">Movies Lib</h5>
@@ -203,12 +203,22 @@
             <div class="col-12 col-md-6 mb-4">
                 <div class="row g-0 project-card position-relative rounded-1">
                     <div class="col-md-6 mb-md-0 p-md-4">
-                        <img src="/media/img/Projects/costs.png" class="w-100" alt="...">
+                        <img src="media/img/Projects/costs.png" class="w-100" alt="...">
                     </div>
                     <div class="col-md-6 p-4 ps-md-0">
-                        <h5 class="mt-0">Projeto Costs</h5>
-                        <p>Um gerenciador de projetos usando o Json server, resultado de mais um curso de React que fiz!</p>
-                        <a href="https://edupassero.github.io/ep_costs/" class="stretched-link" />
+                        @if (english)
+                        {
+                            <h5 class="mt-0">Costs</h5>
+                            <p>A project manager using Json server, created during a React JS course.</p>
+                            <a href="https://edupassero.github.io/ep_costs/" class="stretched-link" />
+                        }
+                        else
+                        {
+                            <h5 class="mt-0">Projeto Costs</h5>
+                            <p>Um gerenciador de projetos usando o Json server, feito em um curso de React JS</p>
+                            <a href="https://edupassero.github.io/ep_costs/" class="stretched-link" />
+                        }
+                        
                     </div>
                 </div>
             </div>
@@ -219,7 +229,7 @@
             <div class="col-12 col-md-6 mb-4">
                 <div class="row g-0 project-card position-relative rounded-1">
                     <div class="col-md-6 mb-md-0 p-md-4">
-                        <img src="/media/img/Projects/costs.png" class="w-100" alt="...">
+                        <img src="media/img/Projects/costs.png" class="w-100" alt="...">
                     </div>
                     <div class="col-md-6 p-4 ps-md-0">
                         <h5 class="mt-0">Columns with stretched link</h5>
@@ -232,7 +242,7 @@
             <div class="col-12 col-md-6 mb-4">
                 <div class="row g-0 project-card position-relative rounded-1">
                     <div class="col-md-6 mb-md-0 p-md-4">
-                        <img src="/media/img/Projects/calculator.png" class="w-100" alt="...">
+                        <img src="media/img/Projects/calculator.png" class="w-100" alt="...">
                     </div>
                     <div class="col-md-6 p-4 ps-md-0">
                         <h5 class="mt-0">Calculadora</h5>
@@ -256,13 +266,8 @@
             </div>
 
             <div class="row brand_name  justify-content-center">
-                <div class="brand_image col-1">
-                    <a href="https://www.youtube.com/shorts/PAOl8MgiDIQ">
-                        <img class="glow" src="/media/img/Me/me_brand.png" />
-                    </a>
-                </div>
                 <div class="name col-2">
-                    <h3>Eduardo<br />Passero</h3>
+                    <h3>Eduardo Passero</h3>
                 </div>
             </div>
             <div class="text-center">
