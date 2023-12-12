@@ -41,7 +41,7 @@
 
 <div class="cover">
     <video class="video_bg" src="media/video/background_video.mp4" muted autoPlay loop />
-    <div class="big_titles">
+    <div>
         <h1 id="name">Eduardo Passero</h1>
         @if (english)
         {
@@ -209,16 +209,14 @@
                         @if (english)
                         {
                             <h5 class="mt-0">Costs</h5>
-                            <p>A project manager using Json server, created during a React JS course.</p>
-                            <a href="https://edupassero.github.io/ep_costs/" class="stretched-link" />
+                            <p>A project manager using Json server, created during a React JS course.</p>                            
                         }
                         else
                         {
                             <h5 class="mt-0">Projeto Costs</h5>
                             <p>Um gerenciador de projetos usando o Json server, feito em um curso de React JS</p>
-                            <a href="https://edupassero.github.io/ep_costs/" class="stretched-link" />
                         }
-                        
+                        <a href="https://edupassero.github.io/ep_costs/" class="stretched-link" />
                     </div>
                 </div>
             </div>
@@ -232,8 +230,17 @@
                         <img src="media/img/Projects/costs.png" class="w-100" alt="...">
                     </div>
                     <div class="col-md-6 p-4 ps-md-0">
-                        <h5 class="mt-0">Validator</h5>
-                        <p>Um exercício de lógica e tratamento de dados, é um formulário com validação feito com HTML, CSS e JavaScript</p>
+                        
+                        @if (english)
+                        {
+                            <h5 class="mt-0">Validator</h5>
+                            <p>An exercise in logic and data handling, this is a form validator made with HTML, CSS and JS</p>
+                        }
+                        else
+                        {
+                            <h5 class="mt-0">Validator</h5>
+                            <p>Um exercício de lógica e tratamento de dados, é um formulário com validação feito com HTML, CSS e JavaScript</p>
+                        }
                         <a href="https://edupassero.github.io/ep_movies/" class="stretched-link" />
                     </div>
                 </div>

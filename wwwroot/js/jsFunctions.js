@@ -13,6 +13,5 @@ window.onscroll = function () {
     if (currentScrollPos == 0) {
         document.getElementById('nav').classList.remove('nav_active');
     }
-
     prevScrollpos = currentScrollPos;
 }
