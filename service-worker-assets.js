@@ -33,7 +33,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-Hute\/SXDOHIofPuWWR0615xDy9ec\/si5wrDn2sEEKGQ=",
+      "hash": "sha256-wF7iU7UZK\/K5rkBQy0vOUPPjRSmkLT5A2\/eijLzVBWs=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -93,7 +93,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-1KoodK+zaCgrJNcHc8+Xmgh2cYvDV0MjJNEYCAp7LrU=",
+      "hash": "sha256-ZwCUhZwZ0eVdItpL5dA3yX2jtMXW4viU9tJ8KmEdL8c=",
       "url": "_framework\/MyPortfolio.dll"
     },
     {
@@ -153,7 +153,7 @@
       "url": "MyPortfolio.styles.css"
     },
     {
-      "hash": "sha256-2tcq7IIT71qQ9pKdcFXH85W8DAu2F2\/XYC07XYCvoUs=",
+      "hash": "sha256-eMYtwSjTyfFlTRhtuQ2iVyKTqZFNYY+FW7y2nzAmxoQ=",
       "url": "css\/app.css"
     },
     {
@@ -1085,7 +1085,7 @@
       "url": "index.html"
     },
     {
-      "hash": "sha256-wvEz71n59LLTfIue4t7rFeLUEag6SQDuEdk8olYJRgo=",
+      "hash": "sha256-nstAA3p8ZxtOAxML1YTVTmUDb+mamtjuJOTy43AglSw=",
       "url": "js\/jsFunctions.js"
     },
     {
@@ -1201,5 +1201,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "waxdDjki"
+  "version": "hLuGOe7x"
 };
