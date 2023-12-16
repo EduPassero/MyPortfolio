@@ -153,7 +153,7 @@
       "url": "MyPortfolio.styles.css"
     },
     {
-      "hash": "sha256-H8VYbIK5GmghchtpLLK2DLdCrXpD+er+FvYuz4Fhef4=",
+      "hash": "sha256-0llLFrM3p0KugjE0\/B3vGV3R9Di1gHW7kKcI+2vtpY8=",
       "url": "css\/app.css"
     },
     {
@@ -1201,5 +1201,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "LZsTQaRH"
+  "version": "hHeQ8Abu"
 };
