@@ -137,17 +137,11 @@ nav {
     }
 
 .nav_menu_button {
-    /*display: none;*/
     text-align: center;
 }
 
     .nav_menu_button:hover {
         cursor: pointer;
-    }
-
-    .nav_mobile_button {
-        background-color: rgba(255, 255, 255, 0);
-        display: block;
     }
 
 .nav_close {
@@ -224,6 +218,7 @@ input:checked + .slider:before {
 
 /* ---------------------------------------- Sidebar */
 .mobile_side_menu {
+    transition: width 300ms ease;
     height: 100vh;
     background-color: rgba(14, 52, 62, 0.98);
     float: right;
@@ -234,6 +229,7 @@ input:checked + .slider:before {
 }
 
 .mobile_side_links {
+    list-style: none;
     padding-left: 4em;
     width: 100%;
     margin-top: 8em;
@@ -244,8 +240,24 @@ input:checked + .slider:before {
 }
 
 .mobile_side_hidden {
-    display: none;
+    transition: width 300ms ease;
+    height: 100vh;
+    background-color: rgba(14, 52, 62, 0.98);
+    float: right;
+    position: fixed;
+    right: 0;
+    width: 0%;
+    z-index: 9;
 }
+
+.nav_menu_button_close {
+    padding: 15% 0 0 80%;
+    display: inline-block;
+}
+
+    .nav_menu_button_close:hover {
+        cursor: pointer;
+    }
 
 
 
