@@ -28,10 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Media\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\js\jsFunctions.js" />
     <None Include="wwwroot\js\jsFunctions.published.js" />
   </ItemGroup>

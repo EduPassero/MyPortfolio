@@ -72,7 +72,7 @@
         <h1 id="name">Eduardo Passero</h1>
         @if (english)
         {
-            <h3 id="subtitle">Developer .NET C#</h3>
+            <h3 id="subtitle">.NET C# Developer</h3>
         }
         else
         {
@@ -80,9 +80,9 @@
         }
         <div class="social_buttons">
             <div class="row">
-                <div class="col col-md-4 col-lg-1"><a href="https://www.linkedin.com/in/eduardo-passero/" class="social_button" target="_blank">LinkedIn</a></div>
-                <div class="col col-md-4 col-lg-1"><a href="https://github.com/EduPassero" class="social_button" target="_blank">Github</a></div>
-                <div class="col col-md-4 col-lg-1"><a href="https://wa.me/5547988475547" class="social_button" target="_blank"> Whatsapp</a></div>
+                <div class="col-4 col-md-3 col-lg-2"><a href="https://www.linkedin.com/in/eduardo-passero/" class="social_button" target="_blank">LinkedIn</a></div>
+                <div class="col-4 col-md-3 col-lg-2"><a href="https://github.com/EduPassero" class="social_button" target="_blank">Github</a></div>
+                <div class="col-4 col-md-3 col-lg-2"><a href="https://wa.me/5547988475547" class="social_button" target="_blank"> Whatsapp</a></div>
             </div>
         </div>
     </div>
@@ -99,7 +99,7 @@
                     <p>
                         I am a web developer with a degree in Systems Analysis and Development from SENAC. Currently, I work in user support and development.
                         <br /><br />
-                        I have been married to Barbara Passero for three years, and she's the one who pulls me away from the computer to go for a walk in our free time.
+                        I have been married to Barbara Passero for four years, and she's the one who pulls me away from the computer to go for a walk in our free time.
                         Additionally, I enjoy reading, playing old games like Age of Empires, and losing at online chess.
                         <br /><br />
                         In the long run, I aim to become a full-stack developer – the kind of professional who can tackle any problem or, at the very least, has an idea of how to solve it.
@@ -113,7 +113,7 @@
                         Sou um desenvolvedor web formado em Análise e Desenvolvimento de Sistemas pelo SENAC e atualmente trabalho como
                         suporte ao usuário e desenvolvedor.
                         <br /><br />
-                        Sou casado com a Barbara Passero há três anos e é ela que me arrasta para longe do
+                        Sou casado com a Barbara Passero há quatro anos e é ela que me arrasta para longe do
                         computador para passear nas horas vagas. Além disso gosto de ler, jogar jogos velhos como Age of Empires e perder no Xadrez online.
                         <br /><br />
                         A longo prazo quero me tornar um desenvolvedor full stack, aquele profissional que sabe resolver qualquer problema, ou pelo
@@ -158,16 +158,28 @@
                 {
                     <h2 class="title">Profesional Background</h2>
                     <p>
-                        I have been working at Consensu Solutions in Systems for 4 years. There, I learned almost everything I know today by working on various projects. 
-                        Below is a brief demonstration of my main project at the company: the development of Gestão Central Web, the web version of our ERP system."
+                        I am a developer with five years of experience and have worked with various technologies throughout my journey. 
+                        I began in front-end, creating websites and user interfaces, and delved into several JavaScript frameworks. 
+                        Today, I can confidently say I am a full-stack developer specialized in Windows technologies. 
+                        My expertise includes ASP, .NET, C#, Blazor, and Microsoft's Syncfusion framework.
+
+                        One of the highlights of my career was leading a Web ERP project, as showcased in the videos below. 
+                        This project was developed using the aforementioned technologies, with the exception of ASP. 
+                        I am always seeking to enhance my skills and enjoy learning by doing!
                     </p>
                 }
                 else
                 {
                     <h2 class="title">Experiências</h2>
                     <p>
-                        Trabalho há 4 anos na Consensu Soluções em Sistemas. Lá aprendi quase tudo o que sei hoje trabalhando em diversos projetos, abaixo está uma pequena demonstração
-                        do meu principal projeto na empresa hoje: o desenvolvimento do Gestão Central Web, a versão web do nosso sistema ERP.
+                        Sou um desenvolvedor com cinco anos de experiência e passei por diversas tecnologias ao longo da minha jornada. 
+                        Comecei no front-end, criando sites e interfaces de usuário, e estudei alguns frameworks JavaScript. 
+                        Hoje, posso afirmar que sou um desenvolvedor fullstack especializado em tecnologias Windows. 
+                        Minha expertise inclui ASP, .NET, C#, Blazor, e o framework Syncfusion da Microsoft.
+
+                        Um dos pontos altos da minha carreira foi a condução de um projeto de ERP Web, como demonstrado nos vídeos abaixo. 
+                        Este projeto foi desenvolvido utilizando as tecnologias mencionadas anteriormente, com exceção do ASP. 
+                        Estou sempre em busca de aprimorar minhas habilidades e gosto de aprender fazendo!
                     </p>
                 }
             </div>
@@ -189,12 +201,18 @@
 
         <div class="row mt-5">
             <div class="col-12 col-md-7">
-                <p>
-                    Trabalho tanto no front-end quanto no back-end para concluir minhas tarefas. Sempre que surgem dúvidas peço ajuda aos meus gestores, ou vasculho a internet em busca de soluções.
-                    Sempre dou um jeito!
-                    <br /><br />
-                    Atualmente estou familiarizado com as tecnologias ao lado, são elas que utilizo no trabalho. Meu principal objeto de estudo no momento é .NET C#.
-                </p>
+                @if (english)
+                {
+                    <p>
+                        Currently, I am familiar with the technologies listed here. My main focus of study at the moment is ASP, .NET, and C#.
+                    </p>
+                }
+                else
+                {
+                    <p>
+                        Atualmente estou familiarizado com as tecnologias ao lado. Meu principal objeto de estudo no momento é ASP, .NET, e C#.
+                    </p>
+                }
             </div>
             <div class="col-12 col-md-5">
                 <div class="row mb-5">
@@ -216,8 +234,13 @@
 
 <section id="projects">
     <div class="container">
-
-        <h2 class="title">Meus Projetos</h2>
+        @if (english)
+        {
+            <h2 class="title">My Projects</h2>
+        }
+        else
+        { <h2 class="title">Meus Projetos</h2> }
+        
         <div class="row">
 
             <div class="col-12 col-md-6 mb-4">
@@ -226,9 +249,17 @@
                         <img src="media/img/Projects/movies.png" class="w-100" alt="...">
                     </div>
                     <div class="col-md-6 p-4 ps-md-0">
-                        <h5 class="mt-0">Movies Lib</h5>
-                        <p>Uma biblioteca de filmes utilizando uma API, criada em um curso de React. Vale a pena conferir!</p>
-                        <a href="https://edupassero.github.io/ep_movies/" class="stretched-link"/>
+                        @if (english)
+                        {
+                            <h5 class="mt-0">Movies Lib</h5>
+                            <p>A movies library that uses data from an API. Another project made during my React JS classes, it's worth the click!</p>
+                        }
+                        else
+                        {
+                            <h5 class="mt-0">Movies Lib</h5>
+                            <p>Uma biblioteca de filmes utilizando uma API, criada em um curso de React. Vale a pena conferir!</p>
+                        }                        
+                        <a href="https://edupassero.github.io/ep_movies/" class="stretched-link" target="_blank" />
                     </div>
                 </div>
             </div>
@@ -249,7 +280,7 @@
                             <h5 class="mt-0">Projeto Costs</h5>
                             <p>Um gerenciador de projetos usando o Json server, feito em um curso de React JS</p>
                         }
-                        <a href="https://edupassero.github.io/ep_costs/" class="stretched-link" />
+                        <a href="https://edupassero.github.io/ep_costs/" class="stretched-link" target="_blank"  />
                     </div>
                 </div>
             </div>
@@ -260,7 +291,7 @@
             <div class="col-12 col-md-6 mb-4">
                 <div class="row g-0 project-card position-relative rounded-1">
                     <div class="col-md-6 mb-md-0 p-md-4">
-                        <img src="media/img/Projects/costs.png" class="w-100" alt="...">
+                        <img src="media/img/Projects/validator.webp" class="w-100" alt="...">
                     </div>
                     <div class="col-md-6 p-4 ps-md-0">
                         
@@ -274,7 +305,7 @@
                             <h5 class="mt-0">Validator</h5>
                             <p>Um exercício de lógica e tratamento de dados, é um formulário com validação feito com HTML, CSS e JavaScript</p>
                         }
-                        <a href="https://edupassero.github.io/ep_movies/" class="stretched-link" />
+                        <a href="https://edupassero.github.io/ep_validator/" class="stretched-link" target="_blank" />
                     </div>
                 </div>
             </div>
@@ -282,12 +313,66 @@
             <div class="col-12 col-md-6 mb-4">
                 <div class="row g-0 project-card position-relative rounded-1">
                     <div class="col-md-6 mb-md-0 p-md-4">
-                        <img src="media/img/Projects/calculator.png" class="w-100" alt="...">
+                        <img src="media/img/Projects/calculator.png" class="w-100" alt="calculator">
                     </div>
                     <div class="col-md-6 p-4 ps-md-0">
-                        <h5 class="mt-0">Calculadora</h5>
-                        <p>Uma calculadora similar ao modelo da Apple, só que muito mais barata!</p>
-                        <a href="https://edupassero.github.io/ep_costs/" class="stretched-link" />
+                        @if (english)
+                        {
+                            <h5 class="mt-0">Calculator</h5>
+                            <p>A calculator just like the one from Apple, but much cheaper!</p>
+                        }
+                        else
+                        {
+                            <h5 class="mt-0">Calculadora</h5>
+                            <p>Uma calculadora similar ao modelo da Apple, só que muito mais barata!</p>
+                        }                        
+                        <a href="https://edupassero.github.io/ep_calculator/" class="stretched-link" target="_blank" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container mt-4">
+        @if (english)
+        {
+            <h2 class="title">My Websites</h2>
+        }
+        else
+        {
+            <h2 class="title">Meus Sites</h2>
+        }
+        <div class="row">
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="row g-0 project-card position-relative rounded-1">
+                    <div class="col-12 mb-md-0">
+                        <img src="media/img/Projects/gc.png" class="w-100" alt="Gestão Central">
+                    </div>
+                    <div class="col ps-md-0">
+                        <a href="https://www.gestaocentral.com.br" class="stretched-link" target="_blank" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="row g-0 project-card position-relative rounded-1">
+                    <div class="col-12 mb-md-0">
+                        <img src="media/img/Projects/gdp.png" class="w-100" alt="Gestão Central">
+                    </div>
+                    <div class="col ps-md-0">
+                        <a href="https://www.gestaodepedidos.com.br" class="stretched-link" target="_blank" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="row g-0 project-card position-relative rounded-1">
+                    <div class="col-12 mb-md-0">
+                        <img src="media/img/Projects/consensu.png" class="w-100" alt="Gestão Central">
+                    </div>
+                    <div class="col ps-md-0">
+                        <a href="https://www.consensu.com.br" class="stretched-link" target="_blank" />
                     </div>
                 </div>
             </div>
@@ -301,14 +386,21 @@
         <div class="credits">
 
             <div class="text-center mb-5">
-                <h5>Forjado em 2023 no fogo do verão jaraguaense por:</h5>
+                @if (english)
+                {
+                    <h5>Made in 2024 by:</h5>
+                }
+                else
+                {
+                    <h5>Feito em 2024 por:</h5>
+                }
             </div>
 
             <div class="text-center mb-5">
                 <h2>Eduardo Passero</h2>
             </div>
             <div class="text-center">
-                <h5>Versão 2.0</h5>
+                <h5>V 2.0</h5>
             </div>
 
         </div>
